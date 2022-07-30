@@ -1,0 +1,94 @@
+/*======= Pie Styles =======*/
+.pies {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+}
+.pies .pie .pie-chart {
+  position: relative;
+}
+.pies .pie .pie-chart canvas {
+  height: 175px;
+  width: 175px;
+}
+.pies .pie .pie-chart span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.pies .pie .pie__content {
+  text-align: center;
+}
+.pies .pie .pie__content h5 {
+  text-transform: uppercase;
+  margin-top: 35px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pies {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .pies .pie {
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .pies .pie:first-child {
+    margin-top: 0;
+  }
+  .pies .pie:nth-child(2) {
+    margin-top: 0;
+  }
+  .pies .pie .pie__content h5 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pies {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .pies .pie {
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .pies .pie:first-child {
+    margin-top: 0;
+  }
+  .pies .pie:nth-child(2) {
+    margin-top: 0;
+  }
+  .pies .pie .pie__content h5 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .pies .pie {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=pie.css.map */

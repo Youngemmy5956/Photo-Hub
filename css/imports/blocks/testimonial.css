@@ -1,0 +1,51 @@
+/*======= Testimoial & Partners Styles =======*/
+.testimonials .testimonial .testimonial__text {
+  font-size: 20px;
+  line-height: 38px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.testimonials .testimonial .testimonial__author h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+.testimonials .testimonial .testimonial__author h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.testimonials .testimonial .testimonial__author h5 a {
+  color: #ffffff;
+}
+.testimonials .testimonial .testimonial__author h5 a:hover {
+  color: #e51515;
+}
+
+.partners .partner {
+  min-height: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+}
+.partners .partner a img {
+  width: auto !important;
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=testimonial.css.map */

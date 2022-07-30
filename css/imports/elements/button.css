@@ -1,0 +1,139 @@
+/*======= Button Styles =======*/
+a.pt-button, button.pt-button, .pt-button {
+  display: inline-block;
+  padding: 0 35px;
+  height: 40px;
+  line-height: 38px;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+}
+a.pt-button:hover, button.pt-button:hover, .pt-button:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  color: #000000;
+}
+a.pt-button.pt-button--grey, button.pt-button.pt-button--grey, .pt-button.pt-button--grey {
+  color: #d7d7d7;
+  border-color: #d7d7d7;
+}
+a.pt-button.pt-button--grey:hover, button.pt-button.pt-button--grey:hover, .pt-button.pt-button--grey:hover {
+  color: #000000;
+}
+a.pt-button.pt-button--theme, button.pt-button.pt-button--theme, .pt-button.pt-button--theme {
+  background: #e51515;
+  border-color: #e51515;
+  color: #ffffff;
+}
+a.pt-button.pt-button--theme:hover, button.pt-button.pt-button--theme:hover, .pt-button.pt-button--theme:hover {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+a.pt-button.pt-button--lg, button.pt-button.pt-button--lg, .pt-button.pt-button--lg {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 50px;
+  font-size: 16px;
+}
+a.pt-button.pt-button--md, button.pt-button.pt-button--md, .pt-button.pt-button--md {
+  height: 45px;
+  line-height: 45px;
+  padding: 0 40px;
+  font-size: 14px;
+}
+a.pt-button.pt-button--xs, button.pt-button.pt-button--xs, .pt-button.pt-button--xs {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+a.read-more {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 35px;
+  color: #ffffff;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 500;
+}
+a.read-more:after {
+  position: absolute;
+  left: calc(100% + 5px);
+  content: "";
+  top: 50%;
+  height: 2px;
+  width: 10px;
+  background: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a.read-more:hover {
+  color: #e51515;
+}
+a.read-more:hover:after {
+  background: #e51515;
+  left: calc(100% + 10px);
+}
+
+a.video-play-button {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 28px;
+  color: #ffffff;
+}
+a.video-play-button span {
+  padding-left: 3px;
+}
+a.video-play-button:hover {
+  color: #e51515;
+  border-color: #e51515;
+}
+
+a.reply-button, button.reply-button {
+  font-size: 12px;
+  height: 24px;
+  line-height: 22px;
+  padding: 0 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #d7d7d7;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+a.reply-button:hover, button.reply-button:hover {
+  color: #ffffff;
+  background: #e51515;
+  border-color: #e51515;
+}
+
+/*# sourceMappingURL=button.css.map */

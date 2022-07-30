@@ -1,0 +1,21 @@
+/*======= Onepage Footer =======*/
+.onepage-footer .footer .footer__copyright p.footer__copyright__text {
+  margin-top: 10px;
+}
+
+.onepage-footer .footer .footer__contact ul li a {
+  line-height: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .onepage-footer .footer .footer__copyright {
+    text-align: left;
+  }
+}
+
+.footer__copyright{}
+.footer__copyright .logo{
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,57 @@
+/*********************************************************************************
+
+	Template Name: Photohub - Creative Photography Template 
+	Template URI: https://themeforest.net/user/plus-theme
+	Description: Photohub is a awesome, creative, and unique phptography template which mekes you build a beautiful template easily
+	Author: Plus-Theme
+	Author URI: https://hastech.company
+	Version: 1.2
+
+	Note: This is main css. All css files import here.
+
+**********************************************************************************/
+
+
+/*Basic styles*/
+@import url(imports/basic/reset.css);
+@import url(imports/basic/typography.css);
+@import url(imports/basic/spacing.css);
+@import url(imports/basic/helper-class.css);
+
+/*Elements*/
+@import url(imports/elements/section-title.css);
+@import url(imports/elements/button.css);
+@import url(imports/elements/social-icons.css);
+@import url(imports/elements/slider-elem-styles.css);
+@import url(imports/elements/breadcrumb.css);
+@import url(imports/elements/pagination.css);
+
+/*Blocks*/
+@import url(imports/blocks/header.css);
+@import url(imports/blocks/navigation.css);
+@import url(imports/blocks/banner.css);
+@import url(imports/blocks/about.css);
+@import url(imports/blocks/portfolio.css);
+@import url(imports/blocks/service.css);
+@import url(imports/blocks/pie.css);
+@import url(imports/blocks/pricebox.css);
+@import url(imports/blocks/testimonial.css);
+@import url(imports/blocks/team.css);
+@import url(imports/blocks/process.css);
+@import url(imports/blocks/contact.css);
+@import url(imports/blocks/blog.css);
+@import url(imports/blocks/blog-sidebar.css);
+@import url(imports/blocks/single-blog.css);
+@import url(imports/blocks/single-portfolio.css);
+@import url(imports/blocks/modal.css);
+@import url(imports/blocks/footer.css);
+
+
+
+
+/*Onepage*/
+@import url(imports/onepage/header.css);
+@import url(imports/onepage/banner.css);
+@import url(imports/onepage/op-sidebar.css);
+@import url(imports/onepage/main.css);
+@import url(imports/onepage/footer.css);

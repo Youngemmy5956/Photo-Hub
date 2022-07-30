@@ -1,0 +1,65 @@
+/*======= Social Icons Styles =======*/
+.social-icons ul {
+  margin-bottom: 0; }
+  .social-icons ul li {
+    display: inline-block;
+    padding: 0 12px; }
+    .social-icons ul li a {
+      color: #000;
+      display: inline-block; }
+    .social-icons ul li:hover a {
+      color: #e51515; }
+    .social-icons ul li:first-child {
+      padding-left: 0; }
+    .social-icons ul li:last-child {
+      padding-right: 0; }
+    .social-icons ul li.facebook:hover a {
+      color: #3B5998; }
+    .social-icons ul li.twitter:hover a {
+      color: #00ACEE; }
+    .social-icons ul li.google-plus:hover a {
+      color: #DD4B39; }
+    .social-icons ul li.pinterest:hover a {
+      color: #C8232C; }
+    .social-icons ul li.linkedin:hover a {
+      color: #0E76A8; }
+    .social-icons ul li.flickr:hover a {
+      color: #FF0084; }
+    .social-icons ul li.dribbble:hover a {
+      color: #EA4C89; }
+    .social-icons ul li.google:hover a {
+      color: #DD4B39; }
+    .social-icons ul li.skype:hover a {
+      color: #00AFF0; }
+    .social-icons ul li.youtube:hover a {
+      color: #C4302B; }
+    .social-icons ul li.vimeo:hover a {
+      color: #86C9EF; }
+    .social-icons ul li.yahoo:hover a {
+      color: #720E9E; }
+    .social-icons ul li.paypal:hover a {
+      color: #00588B; }
+.social-icons.social-icons--white ul li a {
+  color: #ffffff; }
+.social-icons.social-icons--rounded ul li {
+  padding: 0 8px; }
+  .social-icons.social-icons--rounded ul li a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    font-size: 14px; }
+  .social-icons.social-icons--rounded ul li:hover a {
+    background: #e51515;
+    color: #ffffff;
+    border-color: #e51515; }
+
+/*# sourceMappingURL=social-icons.css.map */

@@ -1,0 +1,164 @@
+/*======= Onepage Main Styles =======*/
+.wrapper.onepage--fluid {
+  margin: 0 85px;
+}
+
+.single-banner__video {
+  width: 100%;
+  height: 100%;
+}
+.single-banner__video .youtube-bg {
+  height: 100%;
+  width: 100%;
+}
+
+.slider-map {
+  width: 100%;
+  height: 100vh;
+}
+.slider-map .google-map {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .wrapper.onepage--fluid {
+    margin: 0 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .wrapper.onepage--fluid {
+    margin: 0 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wrapper.onepage--fluid {
+    margin: 0;
+  }
+}
+.pagepiling {
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+.pagepiling .pp-section {
+  min-height: 100vh;
+}
+
+.section-menu {
+  left: 50%;
+  bottom: 60px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 21;
+}
+.section-menu ul {
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section-menu ul li a {
+  display: inline-block;
+  border: 1px solid transparent;
+  position: relative;
+}
+.section-menu ul li a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.section-menu ul li.active a {
+  border: 1px solid #ffffff;
+}
+.section-menu ul li.active a:before {
+  background: transparent;
+}
+.section-menu ul li:hover a:before {
+  background: transparent;
+}
+.section-menu ul li.home a:after {
+  content: "\e69b";
+  font-family: 'themify';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #ffffff !important;
+}
+.section-menu ul li.video a:after {
+  content: "\e6cf";
+  font-family: 'themify';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #ffffff !important;
+}
+.section-menu ul li.map a:after {
+  content: "\e665";
+  font-family: 'themify';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #ffffff !important;
+}
+
+.map-section {
+  min-height: 100vh;
+  width: 100%;
+}
+.map-section .google-map {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.video-section {
+  min-height: 100vh;
+  width: 100%;
+}
+.video-section .youtube-bg {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 575px) {
+  .section-menu {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,153 @@
+/*======= Header Styles =======*/
+.header {
+  padding: 0;
+}
+.header .logo a {
+  display: inline-block;
+}
+
+.header-area.transparent--header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  z-index: 5;
+}
+.header-area.header--light nav.menu.navbar ul.navbar-nav li a {
+  color: #ffffff;
+}
+
+.header-area.sticky-header {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.header-area.sticky-header.sticky {
+  background: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-animation: fadeInDown 0.3s ease-in-out;
+  -moz-animation: fadeInDown 0.3s ease-in-out;
+  -ms-animation: fadeInDown 0.3s ease-in-out;
+  -o-animation: fadeInDown 0.3s ease-in-out;
+  animation: fadeInDown 0.3s ease-in-out;
+}
+.header-area.sticky-header.sticky nav.menu.navbar ul.navbar-nav li a {
+  padding: 22px 0;
+}
+.header-area.sticky-header.sticky nav.menu.navbar ul.navbar-nav li ul.dropdown-menu li a {
+  padding: 5px 15px;
+}
+.header-area.sticky-header.header--light.sticky {
+  background: #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header {
+    padding-top: 23px;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header {
+    padding-top: 23px;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .header .logo.text-center {
+    text-align: left !important;
+  }
+  .header .social-icons {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .header .social-icons ul {
+    text-align: center;
+  }
+}
+@-webkit-keyframes fadeInDown {
+  from {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-o-keyframes fadeInDown {
+  from {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes fadeInDown {
+  from {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

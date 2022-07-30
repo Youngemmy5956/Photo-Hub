@@ -1,0 +1,65 @@
+/*======= Modal Styles =======*/
+.cus-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  opacity: 0;
+  visibility: hidden;
+  z-index: -99;
+  transition: all 0.5s ease-in-out 0s;
+  overflow-y: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+  .cus-modal::-ms-scrollbar {
+    display: none; }
+  .cus-modal::-webkit-scrollbar {
+    display: none; }
+  .cus-modal a:hover {
+    color: #ffffff; }
+  .cus-modal.open {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999; }
+  .cus-modal button.close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 40px;
+    width: 40px;
+    background: #e51515;
+    color: #ffffff;
+    opacity: 1;
+    font-size: 18px;
+    cursor: pointer; }
+  .cus-modal p {
+    margin-bottom: 20px; }
+  .cus-modal .social-icons ul li:first-child {
+    padding-left: 0; }
+  .cus-modal .social-icons ul li:last-child {
+    padding-right: 0; }
+
+.cus-modal-inner {
+  margin: auto;
+  padding: 50px 0; }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cus-modal-title {
+    margin-top: 30px;
+    font-size: 28px; } }
+@media only screen and (max-width: 767px) {
+  .cus-modal-title {
+    margin-top: 30px;
+    font-size: 28px; } }
+
+/*# sourceMappingURL=modal.css.map */

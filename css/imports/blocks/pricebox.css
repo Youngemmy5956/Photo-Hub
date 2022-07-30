@@ -1,0 +1,56 @@
+/*======= Pricebox Styles =======*/
+.pricebox {
+  background: #222429;
+  padding: 50px 30px;
+  margin-top: 30px;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.pricebox .pricebox__header .pricebox__title {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 32;
+  font-weight: 400;
+  padding-bottom: 12px;
+}
+.pricebox .pricebox__header span {
+  font-size: 50px;
+}
+.pricebox .pricebox__header .pricebox__price {
+  margin-top: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 32;
+  font-weight: 400;
+}
+.pricebox .pricebox__body ul {
+  padding: 10px 0;
+}
+.pricebox .pricebox__body ul li {
+  line-height: 35px;
+}
+.pricebox:hover {
+  -webkit-box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.2);
+  background: #25282e;
+}
+.pricebox.suggest {
+  background: #25282e;
+  -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+}
+.pricebox.suggest .pricebox__footer a.pt-button {
+  background: #ffffff;
+  color: #000000;
+}
+
+/*# sourceMappingURL=pricebox.css.map */

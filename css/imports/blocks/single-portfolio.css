@@ -1,0 +1,38 @@
+/*======= Single Portfolio =======*/
+.single-portfolio h5.single-portfolio__title {
+  margin-top: -5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 22px; }
+  .single-portfolio h5.single-portfolio__title:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 30px;
+    background: #e51515; }
+  .single-portfolio h5.single-portfolio__title.text-center:before {
+    left: 50%;
+    margin-left: -15px; }
+  .single-portfolio h5.single-portfolio__title.text-right:before {
+    left: auto;
+    right: 0;
+    margin-left: 0px; }
+.single-portfolio .single-portfolio__about p {
+  line-height: 26px; }
+  .single-portfolio .single-portfolio__about p:last-child {
+    margin-bottom: 0; }
+.single-portfolio .single-portfoio__info ul li span {
+  font-weight: 500; }
+.single-portfolio .single-portfolio__overview p {
+  line-height: 26px; }
+  .single-portfolio .single-portfolio__overview p:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=single-portfolio.css.map */

@@ -1,0 +1,53 @@
+/*======= About =======*/
+.about .about__image {
+  padding-right: 30px;
+}
+.about .about__image img {
+  max-width: 100%;
+}
+.about .about__content h3 {
+  margin-top: -10px;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1.3px;
+  padding-bottom: 10px;
+}
+.about .about__content .signature {
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about .about__image {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about .about__image {
+    padding-right: 0;
+  }
+  .about .about__image img {
+    width: 100%;
+  }
+  .about .about__content {
+    padding-top: 30px;
+  }
+  .about .about__content h3 {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about .about__image {
+    padding-right: 0;
+  }
+  .about .about__image img {
+    width: 100%;
+  }
+  .about .about__content {
+    padding-top: 30px;
+  }
+  .about .about__content h3 {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */
